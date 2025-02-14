@@ -1,0 +1,29 @@
+/* Fade-in Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.delay {
+    animation-delay: 0.5s;
+}
+
+/* Slide-up Animation */
+.slide-up {
+    transform: translateY(20px);
+    opacity: 0;
+    animation: slideUp 0.8s ease-in forwards;
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

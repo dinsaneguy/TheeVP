@@ -1,0 +1,128 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.header-container h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main section */
+.contact-info {
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Social Media Cards */
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img.logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* Facebook Card */
+.facebook {
+    background: #1877f2; /* Facebook blue */
+    color: white;
+}
+
+/* LinkedIn Card */
+.linkedin {
+    background: #0077b5; /* LinkedIn blue */
+    color: white;
+}
+
+/* Email Card */
+.email {
+    background: #eb5548; /* Gmail red */
+    color: white;
+}
+
+/* Link Styling */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: white;
+    color: inherit;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card a:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Quote Styling */
+.quote-section {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
