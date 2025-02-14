@@ -100,9 +100,3 @@ nav ul li a:hover, .active {
     text-decoration: none;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #222;
-}
